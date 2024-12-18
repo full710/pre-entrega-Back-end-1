@@ -124,9 +124,12 @@ A continuación se detallan las rutas disponibles y cómo probarlas con **Postma
   **Body** (raw, JSON):
 
   ```json
-  {
-    "quantity": 2
-  }
+  [
+    {
+        "product": 5,
+        "quantity": 2
+    }
+ ]
   ```
 
   **Esperado**: El carrito con el producto agregado o con la cantidad incrementada.
