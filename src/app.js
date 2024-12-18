@@ -1,25 +1,25 @@
 
-// Importar dependencias
-import express from "express";
-import cartRouter from "./routes/cart.router.js";
-import productRouter from "./routes/product.router.js";
 
-const app = express();
-const PUERTO = 8080;
+import express from "express"
+import cartRouter from "./routes/cart.router.js"
+import productRouter from "./routes/product.router.js"
 
-// Middleware para procesar JSON
-app.use(express.json());
+const app = express()
+const PUERTO = 8080
 
-// Rutas
-app.use("/api/products", productRouter);
+
+app.use(express.json())
+
+
+app.use("/api/products", productRouter)
 app.use("/api/carts", cartRouter);
 
-// Mensaje para ruta base
+
 app.get("/", (req, res) => {
-  res.send("Servidor de e-commerce en funcionamiento.");
+  res.send("Servidor de e-commerce en funcionamiento.")
 });
 
-// Iniciar el servidor
+
 app.listen(PUERTO, () => {
-  console.log(`Servidor escuchando en http://localhost:${PUERTO}`);
-});
+  console.log(`Servidor escuchando en http://localhost:${PUERTO}`)
+})
