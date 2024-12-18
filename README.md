@@ -129,7 +129,7 @@ A continuación se detallan las rutas disponibles y cómo probarlas con **Postma
         "product": 5,
         "quantity": 2
     }
- ]
+  ]
   ```
 
   **Esperado**: El carrito con el producto agregado o con la cantidad incrementada.
