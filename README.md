@@ -126,8 +126,8 @@ A continuación se detallan las rutas disponibles y cómo probarlas con **Postma
   ```json
   [
     {
-        "product": 5,
-        "quantity": 2
+        "product": 1,
+        "quantity": 1
     }
   ]
   ```
