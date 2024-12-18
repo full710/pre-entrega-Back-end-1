@@ -1,14 +1,14 @@
 
 # Proyecto de E-commerce
 
-Este proyecto es una API para manejar productos y carritos de compras. Está implementado con **Node.js** y **Express**. A continuación, se detallan los pasos para instalar las dependencias y cómo probar las rutas con Postman.
+Primera pre-entrega del curso de Back End 1 - Coder Hause. Servidor para manejar productos y carritos de compras. Está implementado con **Node.js** y **Express**. A continuación, se detallan los pasos para instalar las dependencias y cómo probar las rutas con Postman.
 
 ## Instalación
 
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone <url-del-repositorio>
+   git clone https://github.com/full710/pre-entrega-Back-end-1.git
    ```
 
 2. Navega al directorio del proyecto:
